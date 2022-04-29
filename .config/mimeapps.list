@@ -1,6 +1,0 @@
-[Added Associations]
-inode/directory=thunar.desktop;
-application/zip=peazip-extract-smart.desktop;peazip.desktop;
-
-[Default Applications]
-inode/directory=thunar.desktop
