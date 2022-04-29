@@ -1,7 +1,0 @@
-# GIMP gimp-crop-tool options
-
-(foreground (color-rgb 0.54509803921568623 0.9137254901960784 0.99215686274509807))
-(pattern "Pine")
-(layer-only yes)
-
-# end of gimp-crop-tool options
