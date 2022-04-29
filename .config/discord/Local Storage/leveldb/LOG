@@ -1,0 +1,15 @@
+2022/04/29-19:44:19.911 551 Reusing MANIFEST /home/melzy/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/29-19:44:19.918 551 Recovering log #306
+2022/04/29-19:44:19.920 551 Reusing old log /home/melzy/.config/discord/Local Storage/leveldb/000306.log 
+2022/04/29-19:45:38.776 687 Level-0 table #310: started
+2022/04/29-19:45:38.782 687 Level-0 table #310: 19311 bytes OK
+2022/04/29-19:45:38.789 687 Delete type=0 #306
+2022/04/29-19:45:38.789 687 Compacting 4@0 + 1@1 files
+2022/04/29-19:45:38.796 687 Generated table #311@0: 95 keys, 421020 bytes
+2022/04/29-19:45:38.796 687 Compacted 4@0 + 1@1 files => 421020 bytes
+2022/04/29-19:45:38.804 687 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/29-19:45:38.804 687 Delete type=2 #301
+2022/04/29-19:45:38.804 687 Delete type=2 #303
+2022/04/29-19:45:38.804 687 Delete type=2 #305
+2022/04/29-19:45:38.804 687 Delete type=2 #307
+2022/04/29-19:45:38.804 687 Delete type=2 #310

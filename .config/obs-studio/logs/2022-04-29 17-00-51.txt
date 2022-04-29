@@ -1,0 +1,98 @@
+17:00:51.162: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+17:00:51.162: CPU Speed: 3700.000MHz
+17:00:51.162: Physical Cores: 6, Logical Cores: 12
+17:00:51.162: Physical Memory: 15922MB Total, 12102MB Free
+17:00:51.162: Kernel Version: Linux 5.17.5-arch1-1
+17:00:51.162: Distribution: "Arch Linux" Unknown
+17:00:51.162: Session Type: x11
+17:00:51.162: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:00:51.163: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+17:00:51.163: Portable mode: false
+17:00:51.196: OBS 27.2.3-1 (linux)
+17:00:51.196: ---------------------------------
+17:00:51.196: ---------------------------------
+17:00:51.196: audio settings reset:
+17:00:51.196: 	samples per sec: 48000
+17:00:51.196: 	speakers:        2
+17:00:51.197: ---------------------------------
+17:00:51.197: Initializing OpenGL...
+17:00:51.223: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+17:00:51.223: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+17:00:51.228: ---------------------------------
+17:00:51.228: video settings reset:
+17:00:51.228: 	base resolution:   2560x1440
+17:00:51.228: 	output resolution: 2560x1440
+17:00:51.228: 	downscale filter:  Bicubic
+17:00:51.228: 	fps:               60/1
+17:00:51.228: 	format:            NV12
+17:00:51.228: 	YUV mode:          sRGB/Partial
+17:00:51.228: NV12 texture support not available
+17:00:51.228: Audio monitoring device:
+17:00:51.228: 	name: Default
+17:00:51.228: 	id: default
+17:00:51.228: ---------------------------------
+17:00:51.229: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:00:51.230: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:00:51.250: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:00:51.250: No blackmagic support
+17:00:51.258: NVENC supported
+17:00:51.258: FFMPEG VAAPI supported
+17:00:51.261: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+17:00:51.261: 
+17:00:51.261: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+17:00:51.268: [input-overlay] Loading v5.0.0 build time 2021.05.08 00:01
+17:00:51.269: [input-overlay] Using '/dev/js*' for gamepad discovery
+17:00:51.269: [input-overlay] gamepad hook started
+17:00:51.291: ---------------------------------
+17:00:51.291:   Loaded Modules:
+17:00:51.291:     input-overlay.so
+17:00:51.291:     text-freetype2.so
+17:00:51.291:     rtmp-services.so
+17:00:51.291:     obs-x264.so
+17:00:51.291:     obs-transitions.so
+17:00:51.291:     obs-outputs.so
+17:00:51.291:     obs-libfdk.so
+17:00:51.291:     obs-filters.so
+17:00:51.291:     obs-ffmpeg.so
+17:00:51.291:     nvfbc.so
+17:00:51.291:     linux-v4l2.so
+17:00:51.291:     linux-pulseaudio.so
+17:00:51.291:     linux-jack.so
+17:00:51.291:     linux-decklink.so
+17:00:51.291:     linux-capture.so
+17:00:51.291:     linux-alsa.so
+17:00:51.291:     image-source.so
+17:00:51.291:     frontend-tools.so
+17:00:51.291:     decklink-ouput-ui.so
+17:00:51.291:     decklink-captions.so
+17:00:51.291: ---------------------------------
+17:00:51.291: ==== Startup complete ===============================================
+17:00:51.323: All scene data cleared
+17:00:51.323: ------------------------------------------------
+17:00:51.324: pulse-input: Server name: 'pulseaudio 15.0'
+17:00:51.324: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:00:51.324: pulse-input: Started recording from 'alsa_output.pci-0000_0f_00.4.analog-stereo.monitor'
+17:00:51.324: [Loaded global audio device]: 'Desktop Audio'
+17:00:51.324: pulse-input: Server name: 'pulseaudio 15.0'
+17:00:51.324: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+17:00:51.324: pulse-input: Started recording from 'alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback'
+17:00:51.324: [Loaded global audio device]: 'Mic/Aux'
+17:00:51.330: Unable to cleanup NvFBC
+17:00:51.419: Switched to scene 'Fullscreen'
+17:00:51.420: ------------------------------------------------
+17:00:51.420: Loaded scenes:
+17:00:51.420: - scene 'Fullscreen':
+17:00:51.420:     - source: 'NvFBC Source' (nvfbc-source)
+17:00:51.420:     - source: 'Keyboard' (input-overlay)
+17:00:51.420:     - source: 'WASD' (input-overlay)
+17:00:51.420: ------------------------------------------------
+17:00:51.891: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:00:51.891: 
+17:04:19.054: ==== Shutting down ==================================================
+17:04:19.072: pulse-input: Stopped recording from 'alsa_output.pci-0000_0f_00.4.analog-stereo.monitor'
+17:04:19.072: pulse-input: Got 46693 packets with 9118791 frames
+17:04:19.072: pulse-input: Stopped recording from 'alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback'
+17:04:19.072: pulse-input: Got 20837 packets with 9970514 frames
+17:04:19.078: Unable to cleanup NvFBC
+17:04:19.089: All scene data cleared
+17:04:19.089: ------------------------------------------------

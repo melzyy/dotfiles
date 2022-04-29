@@ -1,0 +1,112 @@
+19:43:35.839: Command Line Arguments: --minimize-to-tray --startreplaybuffer
+19:43:35.857: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+19:43:35.857: CPU Speed: 3700.000MHz
+19:43:35.858: Physical Cores: 6, Logical Cores: 12
+19:43:35.858: Physical Memory: 15922MB Total, 14865MB Free
+19:43:35.858: Kernel Version: Linux 5.17.5-arch1-1
+19:43:35.858: Distribution: "Arch Linux" Unknown
+19:43:35.858: Session Type: x11
+19:43:35.858: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:43:35.858: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+19:43:35.858: Portable mode: false
+19:43:35.903: OBS 27.2.3-1 (linux)
+19:43:35.903: ---------------------------------
+19:43:35.903: ---------------------------------
+19:43:35.903: audio settings reset:
+19:43:35.903: 	samples per sec: 48000
+19:43:35.903: 	speakers:        2
+19:43:35.908: ---------------------------------
+19:43:35.908: Initializing OpenGL...
+19:43:35.934: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+19:43:35.934: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+19:43:35.945: ---------------------------------
+19:43:35.945: video settings reset:
+19:43:35.945: 	base resolution:   2560x1440
+19:43:35.945: 	output resolution: 2560x1440
+19:43:35.945: 	downscale filter:  Bicubic
+19:43:35.945: 	fps:               60/1
+19:43:35.945: 	format:            NV12
+19:43:35.945: 	YUV mode:          sRGB/Partial
+19:43:35.946: NV12 texture support not available
+19:43:35.946: Audio monitoring device:
+19:43:35.946: 	name: Default
+19:43:35.946: 	id: default
+19:43:35.946: ---------------------------------
+19:43:35.949: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:43:35.951: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:43:36.034: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:43:36.034: No blackmagic support
+19:43:36.117: NVENC supported
+19:43:36.117: FFMPEG VAAPI supported
+19:43:36.148: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v3/package.json" failed: Could not resolve host: obsproject.com
+19:43:36.149: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+19:43:36.149: 
+19:43:36.149: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+19:43:36.164: [input-overlay] Loading v5.0.0 build time 2021.05.08 00:01
+19:43:36.165: [input-overlay] Using '/dev/js*' for gamepad discovery
+19:43:36.165: [input-overlay] gamepad hook started
+19:43:36.193: ---------------------------------
+19:43:36.194:   Loaded Modules:
+19:43:36.194:     input-overlay.so
+19:43:36.194:     text-freetype2.so
+19:43:36.194:     rtmp-services.so
+19:43:36.194:     obs-x264.so
+19:43:36.194:     obs-transitions.so
+19:43:36.194:     obs-outputs.so
+19:43:36.194:     obs-libfdk.so
+19:43:36.194:     obs-filters.so
+19:43:36.194:     obs-ffmpeg.so
+19:43:36.194:     nvfbc.so
+19:43:36.194:     linux-v4l2.so
+19:43:36.194:     linux-pulseaudio.so
+19:43:36.194:     linux-jack.so
+19:43:36.194:     linux-decklink.so
+19:43:36.194:     linux-capture.so
+19:43:36.194:     linux-alsa.so
+19:43:36.194:     image-source.so
+19:43:36.194:     frontend-tools.so
+19:43:36.194:     decklink-ouput-ui.so
+19:43:36.194:     decklink-captions.so
+19:43:36.194: ---------------------------------
+19:43:36.194: ==== Startup complete ===============================================
+19:43:36.219: All scene data cleared
+19:43:36.219: ------------------------------------------------
+19:43:36.634: pulse-input: Server name: 'pulseaudio 15.0'
+19:43:36.634: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+19:43:36.634: pulse-input: Started recording from 'alsa_output.pci-0000_0f_00.4.analog-stereo.monitor'
+19:43:36.634: [Loaded global audio device]: 'Desktop Audio'
+19:43:36.634: pulse-input: Server name: 'pulseaudio 15.0'
+19:43:36.634: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+19:43:36.634: pulse-input: Started recording from 'alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback'
+19:43:36.634: [Loaded global audio device]: 'Mic/Aux'
+19:43:36.739: Unable to cleanup NvFBC
+19:43:36.742: Switched to scene 'Fullscreen'
+19:43:36.742: ------------------------------------------------
+19:43:36.742: Loaded scenes:
+19:43:36.742: - scene 'Fullscreen':
+19:43:36.743:     - source: 'NvFBC Source' (nvfbc-source)
+19:43:36.743:     - source: 'Keyboard' (input-overlay)
+19:43:36.743:     - source: 'WASD' (input-overlay)
+19:43:36.743: ------------------------------------------------
+19:43:36.850: ---------------------------------
+19:43:36.850: [NVENC encoder: 'recording_h264'] settings:
+19:43:36.850: 	rate_control: CBR
+19:43:36.850: 	bitrate:      50000
+19:43:36.850: 	cqp:          0
+19:43:36.850: 	keyint:       250
+19:43:36.850: 	preset:       hq
+19:43:36.850: 	profile:      high
+19:43:36.850: 	width:        2560
+19:43:36.850: 	height:       1440
+19:43:36.850: 	2-pass:       false
+19:43:36.850: 	b-frames:     2
+19:43:36.850: 	psycho-aq:    1
+19:43:36.850: 	GPU:          0
+19:43:36.850: 
+19:43:37.057: libfdk_aac encoder created
+19:43:37.057: libfdk_aac bitrate: 320, channels: 2
+19:43:37.057: libfdk_aac encoder created
+19:43:37.057: libfdk_aac bitrate: 320, channels: 2
+19:43:37.061: ==== Replay Buffer Start ===========================================
+19:43:37.148: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:43:37.148: 

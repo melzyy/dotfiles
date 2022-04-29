@@ -1,0 +1,28 @@
+{
+	"all": {
+		"changeLogs": {
+			"BDFDB": "2.3.2",
+			"CreationDate": "1.4.6",
+			"FriendNotifications": "1.8.1",
+			"ImageUtilities": "4.7.1",
+			"OpenSteamLinksInApp": "1.1.4",
+			"SplitLargeMessages": "1.7.2",
+			"SpotifyControls": "1.2.5",
+			"ThemeSettings": "1.3.3",
+			"TopRoleEverywhere": "3.0.7"
+		},
+		"choices": {
+			"toastPosition": "right"
+		},
+		"general": {
+			"showToasts": true,
+			"showSupportBadges": true,
+			"useChromium": false,
+			"shareData": true
+		},
+		"hashes": {
+			"0BDFDB.data.json": "f2826a64a67ca9425fecd21a34075c28488f8bdc",
+			"0BDFDB.raw.css": "e8d30d44e567f6a77ef4e90734c27c2b47306d20"
+		}
+	}
+}

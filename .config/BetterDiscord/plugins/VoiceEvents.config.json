@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "voice": "Microsoft Zira - English (United States)",
+        "volume": 64.72793397677998,
+        "speed": 1.2304322282836762,
+        "filterNames": true,
+        "filterBots": false,
+        "filterStages": true,
+        "notifs": {
+            "mute": {
+                "enabled": true,
+                "message": "Muted"
+            },
+            "unmute": {
+                "enabled": true,
+                "message": "Unmuted"
+            },
+            "deafen": {
+                "enabled": true,
+                "message": "Deafened"
+            },
+            "undeafen": {
+                "enabled": true,
+                "message": "Undeafened"
+            },
+            "join": {
+                "enabled": true,
+                "message": "$user joined"
+            },
+            "leave": {
+                "enabled": true,
+                "message": "$user left"
+            },
+            "joinSelf": {
+                "enabled": true,
+                "message": ""
+            },
+            "moveSelf": {
+                "enabled": true,
+                "message": "You were moved to $channel"
+            },
+            "leaveSelf": {
+                "enabled": true,
+                "message": ""
+            }
+        },
+        "unknownChannel": ""
+    }
+}
