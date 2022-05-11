@@ -1,3 +1,4 @@
+source ~/.config/zsh-snap/znap.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -32,7 +33,7 @@ ZSH_THEME="melzy" # set by `omz`
 # zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-DISABLE_MAGIC_FUNCTIONS="true"
+# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -65,11 +66,6 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(git
 	colorize
 	copypath
@@ -77,13 +73,11 @@ plugins=(git
 )
 
 source $ZSH/oh-my-zsh.sh
+znap source marlonrichert/zsh-autocomplete
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -95,25 +89,22 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 # Path
 path+=('/home/melzy/.local/bin')
 path+=('/home/melzy/.spicetify')
 source /usr/share/nvm/init-nvm.sh
 
 # Startup
-neofetch
+neofetch --config ~/.config/neofetch/startup.conf
 export PATH
 
 # Aliases
-alias c="clear & neofetch"
+alias c="clear & neofetch --config ~/.config/neofetch/startup.conf"
 alias q="exit"
+alias l="ls"
+alias ll="ls -al"
 alias icat="kitty +kitten icat"
+alias nf="neofetch"
+alias s="sudo"
+alias v="vim"
+alias sv="sudo vim"
