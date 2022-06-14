@@ -20,7 +20,7 @@ floating_modifier $mod
 bindsym $mod+g kill
 
 # Start Rofi
-bindsym $mod+f exec --no-startup-id "~/.config/rofi/launcher.sh"
+bindsym $mod+f exec --no-startup-id "~/.config/rofi/launcher/launcher.sh"
 
 # Change focus
 bindsym $mod+a focus left
@@ -61,12 +61,6 @@ bindsym $mod+Shift+space floating toggle
 
 # Change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
-
-# Focus the parent container
-# bindsym $mod+e focus parent
-
-# focus the child container
-# bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 set $ws1 "1"
@@ -135,13 +129,24 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+# Colors
+client.focused          #d53864 #d53864 #c5c8c6 #d53864   #d53864
+client.focused_inactive #121212 #121212 #c5c8c6 #6b2338   #5f676a
+client.unfocused        #121212 #121212 #888888 #6b2338   #121212
+client.urgent           #d53864 #900000 #c5c8c6 #900000   #900000
+client.placeholder      #000000 #0c0c0c #c5c8c6 #000000   #0c0c0c
 
 # System settings
 exec --no-startup-id nvidia-settings -a '[gpu:0]/GpuPowerMizerMode=1'
 exec --no-startup-id setxkbmap -layout 'us,ru' -option 'grp:ctrl_shift_toggle'
 gaps inner 12
+gaps outer 0
+bindsym $mod+plus exec i3-msg "gaps outer current plus 8"
+bindsym $mod+minus exec i3-msg "gaps outer current minus 8"
+bindsym $mod+Shift+plus exec i3-msg "gaps outer current set 0"
 for_window [class=".*"] border pixel 0
-exec_always --no-startup-id flashfocus
+for_window [instance="origin.exe"] floating enable
+for_window [instance="kcalc"] floating enable
 bindsym $mod+p exec --no-startup-id flash_window
 # No screen timeout
 exec --no-startup-id xset s off
@@ -153,17 +158,23 @@ bindsym $mod+x exec --no-startup-id dbus-send --print-reply --dest=org.mpris.Med
 # Flameshot
 bindsym Print exec --no-startup-id "flameshot full"
 bindsym Control+Print exec --no-startup-id "flameshot gui"
-exec --no-startup-id nitrogen --restore
+# Wallpaper
+exec --no-startup-id feh --no-fehbg --bg-fill ~/Wallpapers/1.jpg
 
 # Autostart
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/i3/polybar.sh
+exec_always --no-startup-id ~/.config/i3/flashfocus.sh
 exec --no-startup-id picom --experimental-backends
 exec --no-startup-id node '~/Games/steamapps/common/Counter-Strike Global Offensive/discord_rpc/index.js
 exec --no-startup-id vibrantLinux --hidden
-# exec obs --minimize-to-tray --startreplaybuffer
-exec --no-startup-id i3-msg workspace 6;gpu-screen-recorder-gtk;workspace 1
+exec --no-startup-id sleep 0.5;i3-msg workspace 9;gpu-screen-recorder-gtk
+exec --no-startup-id sleep 1;i3-msg workspace 8;spotify
+exec --no-startup-id /usr/bin/lxpolkit
 
 # App Shortcuts
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym $mod+q exec --no-startup-id firefox
-bindsym $mod+e exec --no-startup-id thunar
+bindsym $mod+e exec --no-startup-id spacefm
+
+
+exec --no-startup-id sleep 2;i3-msg workspace 1

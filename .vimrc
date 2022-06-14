@@ -19,6 +19,7 @@ autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#show_buffers = 0
+" let g:airline_powerline_fonts = 1
 
 let g:yowish.colors = {
             \	'background'       : ['#2f343f', 'none'],
@@ -35,3 +36,4 @@ let g:yowish.colors = {
 set number
 set encoding=utf-8
 set noshowmode
+set cursorline
